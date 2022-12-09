@@ -42,7 +42,7 @@ source ${MY_DIR}/scripts/common/oh-my-zsh-custom-plugins.sh
 # Database Client
 source ${MY_DIR}/scripts/common/dbeaver.sh
 # Other
-source ${MY_DIR}/scripts/opt-in/python.sh
+# source ${MY_DIR}/scripts/opt-in/python.sh
 source ${MY_DIR}/scripts/opt-in/kubernetes.sh
 source ${MY_DIR}/scripts/opt-in/node.sh
 source ${MY_DIR}/scripts/opt-in/terraform.sh
