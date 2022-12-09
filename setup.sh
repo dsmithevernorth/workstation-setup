@@ -33,6 +33,7 @@ source ${MY_DIR}/scripts/common/homebrew.sh
 # Install everything else
 
 # Terminal
+source ${MY_DIR}/scripts/common/bitwarden.sh
 source ${MY_DIR}/scripts/common/oh-my-zsh.sh
 source ${MY_DIR}/scripts/common/iterm2.sh
 source ${MY_DIR}/scripts/common/git.sh
