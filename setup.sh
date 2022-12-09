@@ -29,15 +29,42 @@ fi
 # Note: Homebrew needs to be set up first
 source ${MY_DIR}/scripts/common/homebrew.sh
 
+
 # Install everything else
+
+# Terminal
 source ${MY_DIR}/scripts/common/oh-my-zsh.sh
-source ${MY_DIR}/scripts/common/editors.sh
+source ${MY_DIR}/scripts/common/iterm2.sh
 source ${MY_DIR}/scripts/common/git.sh
-source ${MY_DIR}/scripts/common/git-aliases.sh
-source ${MY_DIR}/scripts/common/applications-common.sh
-source ${MY_DIR}/scripts/common/developer-utilities.sh
-source ${MY_DIR}/scripts/common/unix.sh
-source ${MY_DIR}/scripts/common/configuration-osx.sh
+source ${MY_DIR}/scripts/common/oh-my-zsh-custom-plugins.sh
+
+# Database Client
+source ${MY_DIR}/scripts/common/dbeaver.sh
+
+# AWS
+source ${MY_DIR}/scripts/common/localstack.sh
+source ${MY_DIR}/scripts/common/aws_iam.sh
+
+# IDE 
+source ${MY_DIR}/scripts/common/visual-studio-code.sh
+
+# Browser 
+source ${MY_DIR}/scripts/common/google-chrome.sh
+
+# Other
+source ${MY_DIR}/scripts/opt-in/python.sh
+source ${MY_DIR}/scripts/opt-in/kubernetes.sh
+source ${MY_DIR}/scripts/opt-in/node.sh
+source ${MY_DIR}/scripts/opt-in/terraform.sh
+source ${MY_DIR}/scripts/opt-in/docker.sh
+
+# source ${MY_DIR}/scripts/common/editors.sh
+
+# source ${MY_DIR}/scripts/common/git-aliases.sh
+# source ${MY_DIR}/scripts/common/applications-common.sh
+# source ${MY_DIR}/scripts/common/developer-utilities.sh
+# source ${MY_DIR}/scripts/common/unix.sh
+# source ${MY_DIR}/scripts/common/configuration-osx.sh
 
 # For each command line argument, try executing the corresponding script in opt-in/
 for var in "$@"
