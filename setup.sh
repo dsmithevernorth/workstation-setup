@@ -33,20 +33,20 @@ source ${MY_DIR}/scripts/common/homebrew.sh
 # Install everything else
 
 # Terminal
-source ${MY_DIR}/scripts/common/bitwarden.sh
-source ${MY_DIR}/scripts/common/oh-my-zsh.sh
-source ${MY_DIR}/scripts/common/iterm2.sh
-source ${MY_DIR}/scripts/common/git.sh
-source ${MY_DIR}/scripts/common/oh-my-zsh-custom-plugins.sh
+#source ${MY_DIR}/scripts/common/bitwarden.sh
+#source ${MY_DIR}/scripts/common/oh-my-zsh.sh
+#source ${MY_DIR}/scripts/common/iterm2.sh
+#source ${MY_DIR}/scripts/common/git.sh
+#source ${MY_DIR}/scripts/common/oh-my-zsh-custom-plugins.sh
 
 # Database Client
 source ${MY_DIR}/scripts/common/dbeaver.sh
 # Other
-# source ${MY_DIR}/scripts/opt-in/python.sh
-source ${MY_DIR}/scripts/opt-in/kubernetes.sh
-source ${MY_DIR}/scripts/opt-in/node.sh
-source ${MY_DIR}/scripts/opt-in/terraform.sh
-source ${MY_DIR}/scripts/opt-in/docker.sh
+#source ${MY_DIR}/scripts/opt-in/python.sh
+#source ${MY_DIR}/scripts/opt-in/kubernetes.sh
+#source ${MY_DIR}/scripts/opt-in/node.sh
+#source ${MY_DIR}/scripts/opt-in/terraform.sh
+#source ${MY_DIR}/scripts/opt-in/docker.sh
 
 # AWS
 source ${MY_DIR}/scripts/common/localstack.sh
@@ -62,6 +62,7 @@ source ${MY_DIR}/scripts/common/google-chrome.sh
 source ${MY_DIR}/scripts/common/spotify.sh
 
 
+# Not required 
 
 # source ${MY_DIR}/scripts/common/editors.sh
 

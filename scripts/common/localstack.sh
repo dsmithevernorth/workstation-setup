@@ -1,8 +1,8 @@
 echo "Downloading Localstack and associated tooling"
 
-pip install localstack
-pip install terraform-local
-pip install awscli-local
+pip3 install localstack
+pip3 install terraform-local
+pip3 install awscli-local
 brew install leapp 
 brew install Noovolari/brew/leapp-cli
 brew install saml2aws 
