@@ -28,7 +28,7 @@ fi
 
 # Note: Homebrew needs to be set up first
 source ${MY_DIR}/scripts/common/homebrew.sh
-
+source ${MY_DIR}/scripts/common/cryptomator.sh
 
 # Install everything else
 
@@ -40,7 +40,7 @@ source ${MY_DIR}/scripts/common/homebrew.sh
 #source ${MY_DIR}/scripts/common/oh-my-zsh-custom-plugins.sh
 
 # Database Client
-source ${MY_DIR}/scripts/common/dbeaver.sh
+# source ${MY_DIR}/scripts/common/dbeaver.sh
 # Other
 #source ${MY_DIR}/scripts/opt-in/python.sh
 #source ${MY_DIR}/scripts/opt-in/kubernetes.sh
@@ -49,28 +49,18 @@ source ${MY_DIR}/scripts/common/dbeaver.sh
 #source ${MY_DIR}/scripts/opt-in/docker.sh
 
 # AWS
-source ${MY_DIR}/scripts/common/localstack.sh
-source ${MY_DIR}/scripts/common/aws_iam.sh
+# source ${MY_DIR}/scripts/common/localstack.sh
+# source ${MY_DIR}/scripts/common/aws_iam.sh
 
 # IDE 
-source ${MY_DIR}/scripts/common/visual-studio-code.sh
+# source ${MY_DIR}/scripts/common/visual-studio-code.sh
 
-# Browser 
-source ${MY_DIR}/scripts/common/google-chrome.sh
+# # Browser 
+# source ${MY_DIR}/scripts/common/google-chrome.sh
 
-# Music 
-source ${MY_DIR}/scripts/common/spotify.sh
+# # Music 
+# source ${MY_DIR}/scripts/common/spotify.sh
 
-
-# Not required 
-
-# source ${MY_DIR}/scripts/common/editors.sh
-
-# source ${MY_DIR}/scripts/common/git-aliases.sh
-# source ${MY_DIR}/scripts/common/applications-common.sh
-# source ${MY_DIR}/scripts/common/developer-utilities.sh
-# source ${MY_DIR}/scripts/common/unix.sh
-# source ${MY_DIR}/scripts/common/configuration-osx.sh
 
 # For each command line argument, try executing the corresponding script in opt-in/
 for var in "$@"
