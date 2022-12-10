@@ -28,7 +28,8 @@ fi
 
 # Note: Homebrew needs to be set up first
 source ${MY_DIR}/scripts/common/homebrew.sh
-source ${MY_DIR}/scripts/common/cryptomator.sh
+source ${MY_DIR}/scripts/common/dropbox.sh
+# source ${MY_DIR}/scripts/common/cryptomator.sh
 
 # Install everything else
 
