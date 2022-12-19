@@ -28,6 +28,7 @@ fi
 
 # Note: Homebrew needs to be set up first
 source ${MY_DIR}/scripts/common/homebrew.sh
+source ${MY_DIR}/scripts/common/obsidian.sh
 # source ${MY_DIR}/scripts/common/protonvpn.sh
 # source ${MY_DIR}/scripts/common/veracrypt.sh
 # source ${MY_DIR}/scripts/common/dropbox.sh
@@ -59,8 +60,8 @@ source ${MY_DIR}/scripts/common/homebrew.sh
 # source ${MY_DIR}/scripts/common/visual-studio-code.sh
 
 # # Browser 
-source ${MY_DIR}/scripts/common/firefox.sh
-source ${MY_DIR}/scripts/common/signal.sh
+# source ${MY_DIR}/scripts/common/firefox.sh
+# source ${MY_DIR}/scripts/common/signal.sh
 # # Music 
 # source ${MY_DIR}/scripts/common/spotify.sh
 
