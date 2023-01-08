@@ -28,6 +28,7 @@ fi
 
 # Note: Homebrew needs to be set up first
 source ${MY_DIR}/scripts/common/homebrew.sh
+source ${MY_DIR}/scripts/common/onedrive.sh
 source ${MY_DIR}/scripts/common/obsidian.sh
 # source ${MY_DIR}/scripts/common/protonvpn.sh
 # source ${MY_DIR}/scripts/common/veracrypt.sh
